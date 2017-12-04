@@ -1,0 +1,8 @@
+{
+  "name": "matapp",
+  "app_id": "3c369337",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
