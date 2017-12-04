@@ -11,4 +11,11 @@
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
   </p>
+  <ion-list>
+      <ion-item *ngFor="let data of resData">
+          <ion-item style="text-align:center;" >
+            <h1 style="text-align:center;">{{data.serverres.FNAME}}</h1>
+          </ion-item>
+  </ion-list>
+  
 </ion-content>
